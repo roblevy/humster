@@ -1,0 +1,62 @@
+{
+  levels: [
+    {
+      id: 1,
+      trackPieces: [
+        {
+          id: 1, length: 1300, width: 6, position: 0,
+          joinsTo: [{
+              trackPieceID: 2, joinType: 2, offset: 1000
+            }
+          ]
+        },
+        {
+          id: 2, length: 2000, width: 5, position: 2,
+          joinsTo: [{
+            trackPieceID: 3, joinType: 1, offset: 200
+          }
+          ]
+        },
+        {
+          id: 3, length: 3000, startWidth: 5, endWidth: 3, position: 2,
+          joinsTo: [{
+            trackPieceID: 4, joinType: 1, offset: -1000
+          }
+          ]
+        },
+        {
+          id: 4, length: 5000, width: 4, position: -3
+        }
+      ]
+    },
+    {
+      id: 2,
+      trackPieces: [
+        {
+          id: 1, length: 1500, width: 3, position: 0,
+          joinsTo: [{
+            trackPieceID: 2, joinType: 1, offset: 500
+          }
+          ]
+        },
+        {
+          id: 2, length: 2000, width: 3, position: 2,
+          joinsTo: [{
+            trackPieceID: 3, joinType: 1, offset: 200
+          }
+          ]
+        },
+        {
+          id: 3, length: 3000, startWidth: 3, endWidth: 2, position: 2,
+          joinsTo: [{
+            trackPieceID: 4, joinType: 1, offset: -1000
+          }
+          ]
+        },
+        {
+          id: 4, length: 5000, width: 3, position: -3
+        }
+      ]
+    }
+  ]
+}
