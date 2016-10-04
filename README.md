@@ -24,3 +24,11 @@ If you can't make it all the way to the end of the level in one breath, don't sw
 Just take a quick gulp of refreshing air and carry on humming!
 
 That's it!
+
+## Screenshots
+
+Here's some action shots:
+![Some exciting Humster action](images/screengrab1.png)
+
+Wow. Looks pretty crazy:
+![Some more exciting Humster action](images/screengrab2.png)
